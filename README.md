@@ -45,39 +45,39 @@ A robust Python tool for downloading YouTube videos with various quality options
 
 Download a video with highest available quality:
 ```bash
-python yt_downloader.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+python yt_dlp_downloader.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ```
 
 ### Advanced Usage
 
 **Download with specific resolution:**
 ```bash
-python yt_downloader.py "URL_HERE" -r 1080p
+python yt_dlp_downloader.py "URL_HERE" -r 1080p
 ```
 
 **Download audio only:**
 ```bash
-python yt_downloader.py "URL_HERE" --audio
+python yt_dlp_downloader.py "URL_HERE" --audio
 ```
 
 **Specify output directory:**
 ```bash
-python yt_downloader.py "URL_HERE" -o /path/to/downloads
+python yt_dlp_downloader.py "URL_HERE" -o /path/to/downloads
 ```
 
 **Download in WebM format:**
 ```bash
-python yt_downloader.py "URL_HERE" --format webm
+python yt_dlp_downloader.py "URL_HERE" --format webm
 ```
 
 **List available resolutions:**
 ```bash
-python yt_downloader.py "URL_HERE" --list-resolutions
+python yt_dlp_downloader.py "URL_HERE" --list-resolutions
 ```
 
 **Combine multiple options:**
 ```bash
-python yt_downloader.py "URL_HERE" -r 720p -o downloads --format mp4
+python yt_dlp_downloader.py "URL_HERE" -r 720p -o downloads --format mp4
 ```
 
 ### Command Line Options
@@ -95,22 +95,22 @@ python yt_downloader.py "URL_HERE" -r 720p -o downloads --format mp4
 
 ### Example 1: Download a music video in highest quality
 ```bash
-python yt_downloader.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+python yt_dlp_downloader.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ```
 
 ### Example 2: Download a tutorial in 720p
 ```bash
-python yt_downloader.py "https://www.youtube.com/watch?v=example" -r 720p
+python yt_dlp_downloader.py "https://www.youtube.com/watch?v=example" -r 720p
 ```
 
 ### Example 3: Extract audio from a video
 ```bash
-python yt_downloader.py "https://www.youtube.com/watch?v=example" --audio
+python yt_dlp_downloader.py "https://www.youtube.com/watch?v=example" --audio
 ```
 
 ### Example 4: Check available resolutions first
 ```bash
-python yt_downloader.py "https://www.youtube.com/watch?v=example" --list-resolutions
+python yt_dlp_downloader.py "https://www.youtube.com/watch?v=example" --list-resolutions
 ```
 
 ## Output
